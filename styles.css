@@ -1,0 +1,29 @@
+.carousel-item>img{
+    /* vw,vh
+    브라우저 크기에 대응
+    %는 부모의 영향을 받지만 위의 두 경우는 브라우저 크기에만 영향을 받는다 */
+    height:100vh;
+}
+
+nav{
+    /* 메뉴가 보임 */
+    z-index:10;
+}
+
+
+.skill-list{
+    display: flex;
+    flex-direction: column ;
+    height: 70vh;
+    justify-content: center;
+}
+
+.sort-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border-top: 1px solid white;
+}
