@@ -38,6 +38,11 @@ a{
 }
 
 /* 스타일 추가 */
+#main-part{
+    height:100vh;
+
+}
+
 #about-part .row {
     /* 'position: relative;'로 하여 기본적인 relative 위치 설정 */
     position: relative;

@@ -56,24 +56,26 @@
                     aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="3000">
                 <img src="images/main1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption h-50">
-                    <h2>PJT00</h2>
+                    <h2> 안녕하세요, 김동현입니다 </h2>
+                    <h2>스크롤을 내리시면 프로젝트 목록과 리포지토리 링크가 있습니다:)</h2>
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="images/main2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption h-50">
-                    <h2>PJT01</h2>
+                    <h2>저는 S/W Engineer라는 직업이 정말 좋습니다</h2>
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="images/main3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption h-50">
-                    <h2>PJT02</h2>
+                    <h2>계속해서 공부하고 시도하고 <br>
+                        발전시키기 위해 노력하는 일들이 보람차고 좋기 때문입니다</h2>
                 </div>
             </div>
         </div>
@@ -91,8 +93,7 @@
     <!-- bootstrap 캐러셀- 인디케이터 포함 -->
 </section>
 
-<!-- 딱 붙어있는 느낌을 주고 싶어서 pt-5 -->
-<section id="main-part" class = "pt-5">
+<section id="main-part" class = "pt-5" >
     <div class="h1 bg-primary p-4 text-white text-center w-100">
         Main
     </div>
@@ -166,13 +167,27 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            글 제목 1
+                            Vote with your cigarette butts (IoT, WEB)
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                          data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            내용 1
+
+
+                            담배 꽁초를 IoT수거함에 버리면서 재미있는 투표도 하고 포인트도 적립!<br>
+                            웹 화면을 통해서 수거함의 위치와 다양한 투표 현황을 알 수 있습니다!<br>
+
+
+                            <br>
+
+
+                            <a href = "https://github.com/hannernos/Vote_with_your_cigarette_butts">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                                프로젝트 링크</a>
                         </div>
                     </div>
                 </div>
@@ -182,64 +197,72 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            글 제목 2
+                            Indiana Cars (IoT)
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                          data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            내용 2
+                            전방의 장애물을 확인하면서 조이스틱을 통해 RC Car를 제어하세요!<br><br>
+
+                            <a href = "https://github.com/hannernos/Indiana_cars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                                프로젝트 링크</a>
+
                         </div>
                     </div>
                 </div>
 
-                <!-- 글 3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            글 제목 3
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            내용 3
-                        </div>
-                    </div>
-                </div>
+<!--                &lt;!&ndash; 글 3 &ndash;&gt;-->
+<!--                <div class="accordion-item">-->
+<!--                    <h2 class="accordion-header" id="headingThree">-->
+<!--                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
+<!--                            글 제목 3-->
+<!--                        </button>-->
+<!--                    </h2>-->
+<!--                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"-->
+<!--                         data-bs-parent="#accordionExample">-->
+<!--                        <div class="accordion-body">-->
+<!--                            내용 3-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
-                <!-- 글 4 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            글 제목 4
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            내용 4
-                        </div>
-                    </div>
-                </div>
+<!--                &lt;!&ndash; 글 4 &ndash;&gt;-->
+<!--                <div class="accordion-item">-->
+<!--                    <h2 class="accordion-header" id="headingFour">-->
+<!--                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">-->
+<!--                            글 제목 4-->
+<!--                        </button>-->
+<!--                    </h2>-->
+<!--                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"-->
+<!--                         data-bs-parent="#accordionExample">-->
+<!--                        <div class="accordion-body">-->
+<!--                            내용 4-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
-                <!-- 글 5 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            글 제목 5
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            내용 5
-                        </div>
-                    </div>
-                </div>
+<!--                &lt;!&ndash; 글 5 &ndash;&gt;-->
+<!--                <div class="accordion-item">-->
+<!--                    <h2 class="accordion-header" id="headingFive">-->
+<!--                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">-->
+<!--                            글 제목 5-->
+<!--                        </button>-->
+<!--                    </h2>-->
+<!--                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"-->
+<!--                         data-bs-parent="#accordionExample">-->
+<!--                        <div class="accordion-body">-->
+<!--                            내용 5-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
